@@ -26,7 +26,7 @@ This project demonstrates functional design, data-driven programming, and intera
    ```racket space-invaders.rkt```
 
 ### Option 2: Download Executable (no Racket needed)
-1. Go to the [Releases]() page and download the latest version for your platform.
+1. Go to the [Releases](https://github.com/WhiteboardNewbie/Space-Invaders/releases) page and download the latest version for your platform.
 
 2. Extract the .zip and run the included executable (space-invaders.exe on Windows).
 
