@@ -16,7 +16,6 @@ This project demonstrates functional design, data-driven programming, and intera
 
 ## How to Run
 
-### Option 1: From Source (requires Racket)
 1. Install [Racket](https://download.racket-lang.org/).
 2. Clone this repository:
    ```bash
@@ -24,11 +23,6 @@ This project demonstrates functional design, data-driven programming, and intera
    cd space-invaders
 3. Run the game:
    ```racket space-invaders.rkt```
-
-### Option 2: Download Executable (no Racket needed)
-1. Go to the [Releases](https://github.com/WhiteboardNewbie/Space-Invaders/releases) page and download the latest version for your platform.
-
-2. Extract the .zip and run the included executable (space-invaders.exe on Windows).
 
 ---
 
