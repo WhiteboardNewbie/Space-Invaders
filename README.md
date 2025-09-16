@@ -19,7 +19,7 @@ This project demonstrates functional design, data-driven programming, and intera
 1. Install [Racket](https://download.racket-lang.org/).
 2. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/space-invaders.git
+   git clone https://github.com/WhiteboardNewbie/space-invaders.git
    cd space-invaders
 3. Run the game:
    ```racket space-invaders.rkt```
