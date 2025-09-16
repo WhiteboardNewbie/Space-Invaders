@@ -3,7 +3,6 @@
 A simple **Space Invaders clone** built in [Racket](https://download.racket-lang.org/) as part of the *Systematic Program Design* learning journey.  
 This project demonstrates functional design, data-driven programming, and interactive game loops.
 
----
 
 ## Features
 - Player that moves left and right with arrow keys.
@@ -11,8 +10,6 @@ This project demonstrates functional design, data-driven programming, and intera
 - Invaders that can be destroyed by missiles.
 - Collision detection between missiles and invaders.
 - Structured using *Systematic Program Design* principles.
-
----
 
 ## How to Run
 
@@ -23,8 +20,6 @@ This project demonstrates functional design, data-driven programming, and intera
    cd space-invaders
 3. Run the game:
    ```racket space-invaders.rkt```
-
----
 
 ## Notable Design/Logical Principles Used
 
@@ -85,13 +80,10 @@ The invaders move (teleport currently,) along these points at random by traversi
                (filter-invaders-and-missiles (rest loi) lom inv-remaining)
                (filter-invaders-and-missiles (rest loi) remaining-lom (remove (first loi) inv-remaining))))]))
    ```
----
 
 ## Demo
 ![the game](assets/game.gif)
 The game isn't smooth because the tick-rate is intentionally lowered to prevent the invaders from teleporting too many times in a second. This functionality hasn't been improved yet, along with many other features which leads us to the "to do" section.
-
----
 
 ## TO DO
 - Invaders can move along waypoints instead of teleporting between them
@@ -105,4 +97,3 @@ The game isn't smooth because the tick-rate is intentionally lowered to prevent 
 - more comprehensive unit-testing
 - Invaders produce missiles
 
----
